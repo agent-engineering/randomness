@@ -1,0 +1,188 @@
+.Select-menu-outer {
+    display: block !important;
+}
+
+.dash-table-container .dash-spreadsheet-container .dash-spreadsheet-inner *,
+.dash-table-container .dash-spreadsheet-container .dash-spreadsheet-inner *:after,
+.dash-table-container .dash-spreadsheet-container .dash-spreadsheet-inner *:before {
+    box-sizing: inherit;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+}
+
+.Select-placeholder,
+.Select--single>.Select-control .Select-value {
+    bottom: 0;
+    left: 0;
+    line-height: 34px;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: smaller;
+}
+
+.dropdown-menu.show {
+    display: block;
+    color: #ECEFF4;
+}
+
+.dropdown-item {
+    display: block;
+    width: 100%;
+    padding: 0.25rem 1rem;
+    clear: both;
+    font-weight: 400;
+    color: #212529;
+    text-align: inherit;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+}
+
+.dash-spreadsheet-menu .dash-spreadsheet-menu-item .show-hide-menu .show-hide-menu-item {
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    background: #2E3440;
+    color: #ECEFF4;
+}
+
+
+.dash-table-container .dash-spreadsheet-container .dash-spreadsheet-inner.dash-fill-width .cell-0-1,
+.dash-table-container .dash-spreadsheet-container .dash-spreadsheet-inner.dash-fill-width .cell-1-1 {
+    font-weight: normal;
+}
+
+.dash-spreadsheet td div {
+
+    line-height: 15px;
+    max-height: 30px;
+    min-height: 10px;
+    height: 30px;
+    /* display: block; */
+    /* overflow-y: hidden; */
+}
+
+.dash-spreadsheet-menu .dash-spreadsheet-menu-item .show-hide-menu .show-hide-menu-item label {
+    white-space: pre-wrap;
+    padding-left: 10px;
+}
+
+.dash-spreadsheet-menu {
+    display: flex;
+    flex-direction: row;
+    align-content: end;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.show-hide {
+    width: 200px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 1%;
+    background-color: #2E3440;
+    color: #ECEFF4;
+}
+
+.dash-table-container .dash-spreadsheet-container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    line-height: initial;
+    align-items: stretch;
+    top: 10px;
+    background: #4C566A;
+}
+
+body {
+    background-color: #2E3440AB;
+}
+
+.card {
+    background-color: #2E3440CC;
+}
+
+.button,
+button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+    color: #ECEFF4;
+    border: 1px solid #4C566A;
+}
+
+.dash-table-container .previous-next-container .page-number .current-page-container input.current-page {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: #ECEFF4;
+    background: inherit;
+}
+
+.dash-table-container .previous-next-container .page-number {
+    font-family: monospace;
+    display: inline-block;
+    color: #ECEFF4;
+}
+
+.dash-table-container .previous-next-container button.previous-page,
+.dash-table-container .previous-next-container button.next-page,
+.dash-table-container .previous-next-container button.first-page,
+.dash-table-container .previous-next-container button.last-page {
+    transition-duration: 400ms;
+    padding: 5px;
+    border: none;
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: #ECEFF4;
+    background-color: #4C566A;
+}
+
+
+.btn-primary {
+    color: #ECEFF4;
+    background-color: #4C566A;
+    border-color: #4C566A;
+}
+
+a {
+    color: #338096;
+    cursor: pointer;
+}
+
+.dash-table-container .dash-spreadsheet-container .dash-spreadsheet-inner input:not([type=radio]):not([type=checkbox]) {
+    padding: 1px;
+    margin: 2px;
+    line-height: 30px;
+    border: none;
+    font-family: inherit;
+    font-weight: 100;
+    text-align: left;
+    color: #212529;
+    border-color: #ECEFF482;
+}
+
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.dash-table-tooltip {
+    background-color: grey;
+    font-family: monospace;
+    color: rgb(0, 0, 0)
+}
